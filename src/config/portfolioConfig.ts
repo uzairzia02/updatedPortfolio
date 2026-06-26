@@ -1,0 +1,142 @@
+import { PortfolioConfig } from '../types';
+
+export const portfolioConfig: PortfolioConfig = {
+  hero: {
+    headline: 'Agentic AI & Full‑Stack Engineering Expert',
+    subheadline: 'I build practical AI agents, backend systems, and polished web experiences with a focus on measurable impact.',
+    resumeUrl: 'https://github.com/uzairzia02/portfolio-resume.pdf',
+  },
+  profile: {
+    summary: 'Results-driven HR professional with over 4 years of experience in Talent Acquisition, Employee Relations, Performance Management, HR Operations, and Policy Development, combined with a growing expertise in AI Engineering and Full-Stack Web Development. Skilled at leveraging technology, automation, and AI-driven solutions to optimize HR processes, improve decision-making, and enhance employee experience. Proficient in modern web technologies including TypeScript, Next.js, and AI application development, with a strong passion for building intelligent, scalable, and user-centric solutions. Seeking an opportunity where I can bridge Human Resources and Artificial Intelligence to drive digital transformation, operational efficiency, and business growth.',
+    contact: {
+      phone: '092-334-3543884',
+      email: 'Uzair9900@hotmail.com',
+      linkedin: 'https://www.linkedin.com/in/uzair-zia-67730790/',
+    },
+  },
+  education: [
+    { degree: 'MBA', institution: 'HR', field: 'Human Resources' },
+    { degree: 'AI Engineer Program', institution: 'GIAIC' },
+  ],
+  experience: [
+    {
+      role: 'HR Executive',
+      company: 'Chase Value',
+      period: 'Dec 2023 – Present',
+      description: 'Supporting HR operations, employee engagement, and strategic people processes while exploring AI-enabled automation solutions.',
+    },
+    {
+      role: 'Assistant Manager HR',
+      company: 'Ronin',
+      period: 'Jun 2021 – Dec 2023',
+      description: 'Managed talent acquisition, employee relations, performance management, and policy development across HR operations.',
+    },
+  ],
+  skillsGrid: [
+    {
+      categoryName: 'AI & Agentic Layer',
+      skills: ['Model Context Protocol (MCP)', 'Gemini SDK', 'OpenAI SDK', 'LangChain', 'Agent Frameworks'],
+    },
+    {
+      categoryName: 'Backend Layer',
+      skills: ['Python', 'FastAPI', 'SQL (PostgreSQL)', 'REST APIs', 'Data Modeling'],
+    },
+    {
+      categoryName: 'Frontend Layer',
+      skills: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+    },
+  ],
+  projects: [
+    {
+      id: 'proj-1',
+      title: 'AI Employee (FTE Bronze Tier)',
+      description: 'A local-first AI employee system that watches a workspace, routes tasks, manages approvals, and keeps an auditable log of actions.',
+      techStack: ['Python', 'Automation', 'Agent Workflows', 'YAML'],
+      githubUrl: 'https://github.com/uzairzia02/personal_FTE-BronzeTier',
+      youtubeUrl: 'https://www.youtube.com/watch?v=258njobDv9o',
+      category: 'ai-agents',
+      metricsHighlight: 'Human-in-the-loop workflow with local-first task orchestration.',
+    },
+    {
+      id: 'proj-2',
+      title: 'AI Chatbot with MCP Tools Integration',
+      description: 'A full-stack chatbot platform with multi-user support, task management, authentication, and MCP-powered AI capabilities.',
+      techStack: ['Next.js', 'TypeScript', 'FastAPI', 'PostgreSQL', 'MCP'],
+      githubUrl: 'https://github.com/uzairzia02/Q4-Hackathon2-Phase4',
+      youtubeUrl: 'https://www.youtube.com/watch?v=WSgzG2E7oWk',
+      category: 'ai-agents',
+      metricsHighlight: 'Multi-user AI app with secure auth and persistent task workflows.',
+    },
+    {
+      id: 'proj-3',
+      title: 'Hackathon Todo Web App',
+      description: 'A modern task management web app with secure login, multi-user isolation, and a responsive full-stack experience.',
+      techStack: ['Next.js', 'TypeScript', 'FastAPI', 'SQLModel', 'JWT'],
+      githubUrl: 'https://github.com/uzairzia02/Q4-Hackathon2-Phase3',
+      demoUrl: 'https://q4-hackathon2-phase3.vercel.app/',
+      youtubeUrl: 'https://www.youtube.com/watch?v=MgTadzP2GUw',
+      category: 'fullstack-hr',
+      metricsHighlight: 'Completed full-stack build with authentication and data persistence.',
+    },
+    {
+      id: 'proj-4',
+      title: 'Hackathon Todo MVP',
+      description: 'An early-phase full-stack todo application that introduced secure task handling, auth, and a polished UI for collaborative workflows.',
+      techStack: ['Next.js', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Docker'],
+      githubUrl: 'https://github.com/uzairzia02/Q4-Hackathon2-Phase2',
+      demoUrl: 'https://q4-hackathon2-phase2.vercel.app/',
+      youtubeUrl: 'https://www.youtube.com/watch?v=Ua7hN5kV0WQ',
+      category: 'fullstack-hr',
+      metricsHighlight: 'Foundation project for a scalable task-based web platform.',
+    },
+    {
+      id: 'proj-5',
+      title: 'Physical AI & Humanoid Robotics Textbook',
+      description: 'A structured online textbook project on physical AI and humanoid robotics, built with a modern documentation platform and interactive content.',
+      techStack: ['Docusaurus', 'TypeScript', 'MDX', 'React'],
+      githubUrl: 'https://github.com/uzairzia02/textbook-hackathon-Q4',
+      category: 'retail-ops',
+      metricsHighlight: 'Educational platform for advanced robotics and AI concepts.',
+    },
+    {
+      id: 'proj-6',
+      title: 'Shopping Agent',
+      description: 'An agent that answers product-related queries such as price checks in a store context using conversational AI.',
+      techStack: ['Python', 'Agent Logic', 'Prompting', 'LLM'],
+      githubUrl: 'https://github.com/uzairzia02/shopping_agent',
+      category: 'ai-agents',
+      metricsHighlight: 'Practical conversational agent for store product information.',
+    },
+    {
+      id: 'proj-7',
+      title: 'Dynamic Resume Builder',
+      description: 'A Next.js-based dynamic resume builder that helps create and customize professional resumes with a modern UI.',
+      techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React'],
+      githubUrl: 'https://github.com/uzairzia02/dynamicresumeusingnextjs',
+      demoUrl: 'https://dynamicresumeusingnextjs.vercel.app/',
+      category: 'fullstack-hr',
+      metricsHighlight: 'Modern resume experience built for personalization and speed.',
+    },
+  ],
+  experienceCaseStudies: [
+    {
+      id: 'case-1',
+      title: 'Retail Staff Promotion Tracker',
+      problem: 'Manual promotion decisions caused bias and delays.',
+      solution: 'Built a full‑stack tool that aggregates performance metrics and suggests promotions via a simple UI.',
+      impact: 'Decision time reduced from weeks to minutes; 15% increase in promotion fairness scores.',
+    },
+    {
+      id: 'case-2',
+      title: 'HR Analytics Automation',
+      problem: 'HR analysts spent hours writing ad‑hoc SQL for routine reports.',
+      solution: 'Implemented a natural‑language agent that translates queries into optimized SQL.',
+      impact: 'Report generation time cut by 80%; analysts can focus on strategic insights.',
+    },
+  ],
+  socialLinks: {
+    github: 'https://github.com/uzairzia02',
+    linkedin: 'https://www.linkedin.com/in/uzair-zia-67730790/',
+    vercel: 'https://vercel.com/uzair-zias-projects',
+  },
+};
